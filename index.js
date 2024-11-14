@@ -36,7 +36,7 @@ client.once("ready", async () => {
 console.log("ready " + client.user.username);
     client.user.setStatus("dnd")
     client.user.setActivity("discord.gg/wicks", {
-type: Activitytype.Playing
+type: ActivityType.Playing
 });
 });
 

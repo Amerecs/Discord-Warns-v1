@@ -1,5 +1,4 @@
-const { Client, Collection, MessageAttachment, MessageActionRow, MessageEmbed, MessageButton } = require('discord.js');
-const { createCanvas, loadImage } = require('canvas');
+const { Client, Collection } = require('discord.js');
 const { REST } = require('@discordjs/rest');
 const { Routes } = require('discord-api-types/v9');
 const fs = require('fs');
